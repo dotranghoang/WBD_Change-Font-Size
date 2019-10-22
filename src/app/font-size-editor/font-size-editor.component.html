@@ -1,0 +1,12 @@
+<p>font-size-editor works!</p>
+
+<div>
+  <label>Enter font size(px):</label>
+  <input type="number"[value]="fontSize" (change)="onChange($event.target.value)">
+</div>
+
+<p class="output"[style.fontSize.px]="fontSize">
+  You can successfully add Node.js PPA to Ubuntu system. Now execute the below command install.
+  Node on and Ubuntu using apt-get.This will also install NPM with node.js.
+  This command also installs many other dependent packages on your system.
+</p>
